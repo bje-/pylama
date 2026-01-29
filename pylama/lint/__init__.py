@@ -7,7 +7,7 @@ from pathlib import Path
 from pkgutil import walk_packages
 from typing import TYPE_CHECKING, Any, Dict, List, Optional, Type
 
-from importlib_metadata import entry_points
+from importlib.metadata import entry_points
 
 LINTERS: Dict[str, Type[LinterV2]] = {}
 
